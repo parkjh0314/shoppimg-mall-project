@@ -1,0 +1,7 @@
+ .properties파일에는 오직 영어만 적을 수 있음 #은 주석문 표시
+# index Maping Information
+/=common.controller.IndexController -> 주소창에contextname만 입력했을때 실행해줄 클래스
+/index.up=common.controller.IndexController
+/main.up=common.controller.MainController
+/는 contextname임 이 파일에서는 MyMVC를 가리킴
+index.up, main.up은 URL임 = 으로 연결돼있는 클래스가 그 URL을 책임진다는 뜻임
